@@ -1,0 +1,20 @@
+@use '../globals'as *;
+
+@use '../utilities/mixin.scss'as *;
+
+
+
+.testimonial {
+    max-width: 940px;
+    margin: 20px auto;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    &__item--violet {
+        @include grid-layout(1, 1, 2, 3, var(--color-violet), var(--color-white));
+    }
+}

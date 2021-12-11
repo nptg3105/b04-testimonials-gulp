@@ -1,0 +1,13 @@
+img {
+    border-radius: 50%;
+}
+
+.testimonial {
+    .author {
+        display: flex;
+
+        &__image {
+            margin-right: 1.4rem;
+        }
+    }
+}

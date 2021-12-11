@@ -1,0 +1,51 @@
+img {
+    border: 1px var(--color-white) solid;
+}
+
+h1 {
+    font-size: 3.9rem;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.testimonial {
+    .author {
+        display: flex;
+        align-items: center;
+
+        &__image {
+            margin-right: 16px;
+
+        }
+
+        &__name {
+            font-size: 1.3rem;
+        }
+
+        &__status {
+            font-size: 1rem;
+        }
+    }
+
+    &__item {
+        padding: 16px;
+        border-radius: 5px;
+    }
+
+    &__heading {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+
+    &__detail {
+        font-size: 1.2rem;
+
+        &--light-grey {
+            color: var(--color-light-grey);
+        }
+
+        &--dark-grey {
+            color: var(--color-dark-grey);
+        }
+    }
+}

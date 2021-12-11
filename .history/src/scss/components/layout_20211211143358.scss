@@ -1,0 +1,16 @@
+@use 'globals';
+
+.testimonial {
+    max-width: 940px;
+    margin: 20px auto;
+
+    &__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    &__item--violet {
+        background-color: var(--color-violet);
+    }
+}

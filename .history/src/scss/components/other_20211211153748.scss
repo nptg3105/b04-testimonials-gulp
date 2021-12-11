@@ -1,0 +1,23 @@
+img {
+    border-radius: 50%;
+}
+
+.testimonial {
+    .author {
+        display: flex;
+
+        &__image {
+            margin-right: 16px;
+        }
+    }
+
+    &__item {
+        padding: 16px;
+        border-radius: 5px;
+    }
+
+    &__heading {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+}

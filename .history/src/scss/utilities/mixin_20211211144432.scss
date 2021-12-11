@@ -1,0 +1,8 @@
+@use '../globals';
+
+@mixin grid-layout ($row-start, $col-start, $row-end, $col-end, $bg: var(--color-white), $color: var(--color-dark-grey)) {
+    grid-row: #{$row-start} / #{$row-end};
+    grid-column: #{$col-start}/ #{$col-end};
+    background-color: $bg;
+    color: $color;
+}
